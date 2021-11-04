@@ -12,7 +12,7 @@ if(a>b){
  max=a;
  min=b;
 }
- printf("The Armstrong numbers are: ");
+ printf("The Armstrong numbers are:");
 for (int i =min; i < max; i++)
 {
    if(isArmstrong(i)==1)
@@ -21,13 +21,13 @@ for (int i =min; i < max; i++)
 
 printf("\n");
 
-printf("The Palindromes are: ");
+printf("The Palindromes are:");
 for (int i =min; i <= max; i++){
    if(isPalindrome(i)==1)
    printf(" %d",i );
 }
 printf("\n");
-printf("The Prime numbers are: ");
+printf("The Prime numbers are:");
 for (int i =min; i <= max; i++)
 {
    if(isPrime(i)==1)
