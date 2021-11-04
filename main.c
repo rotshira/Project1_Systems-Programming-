@@ -4,7 +4,6 @@
 int main()
 {
 int a,b;
-printf("please enter 2 numbers");
 scanf("%d%d", &a, &b);
 int min=a;
 int max=b;
